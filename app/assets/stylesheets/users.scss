@@ -229,8 +229,7 @@
 .users-details-container {
   margin-right: 80px;
   max-width: 600px;
-  padding: 50px;
-  padding-top: 10px;
+  padding: 10px 50px 50px 50px;
 }
 
 .users-user-name {
@@ -297,11 +296,11 @@
 
 .users-card-image {
   border-radius: 4px;
-  position: relative;
-  filter: drop-shadow(4px 4px 80px rgba(0, 0, 0, 0.1));
-  width: 100%;
+  filter: drop-shadow(4px 4px 80px rgba(0, 0, 0, .1));
   object-fit: contain;
-  transition: 0.3s ease;
+  position: relative;
+  transition: .3s ease;
+  width: 100%;
 }
 
 .users-iframe-container {
@@ -328,8 +327,7 @@
     transition: .2s ease-in-out;
 
     ::placeholder {
-      color: $profile-grey
-      ;
+      color: $profile-grey;
     }
 
     &:focus {
